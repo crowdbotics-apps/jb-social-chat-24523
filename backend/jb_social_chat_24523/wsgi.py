@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jb_social_chat_24523.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "jb_social_chat_24523.settings")
 
 application = get_wsgi_application()
